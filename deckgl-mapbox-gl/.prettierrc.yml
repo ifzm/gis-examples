@@ -1,0 +1,23 @@
+# 是否需要分号
+semi: false
+# 单引号
+singleQuote: true
+# 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+bracketSpacing: true
+# 在对象或数组最后一个元素后面是否加逗号（在ES5中加尾逗号）
+trailingComma: all
+# 默认值。因为使用了一些折行敏感型的渲染器（如GitHub comment）而按照markdown文本样式进行折行
+proseWrap: preserve
+# tab
+tabWidth: 4
+# 一行的字符数，如果超过会进行换行，默认为80
+printWidth: 180
+htmlWhitespaceSensitivity: ignore
+
+# 覆盖配置
+overrides:
+  - files:
+      - "*.yml"
+      - "*.styl"
+    options:
+      tabWidth: 2
